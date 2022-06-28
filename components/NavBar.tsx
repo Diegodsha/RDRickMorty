@@ -104,7 +104,7 @@ export default function BackToTopNav(props) {
         setValue(0);
         }
         break;
-      case '/characters':
+      case '/Characters':
         if (value !== 1) {
         setValue(1);
         }
