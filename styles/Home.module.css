@@ -1,5 +1,33 @@
+.cursor {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background: red;
+  z-index: 222;
+}
+
 .container {
   padding: 0 2rem;
+  text-align: center;
+
+}
+
+
+.charImgContainer{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0 ;
+}
+
+.charImg{
+   border-radius: 10px;
+   box-shadow:0 28px 80px -4px rgba(40, 40, 40, 0.14), 0 16px 24px -6px rgba(40, 40, 40, 0.12);
+   transition: 250ms all ease-in-out;
+
+  }
+  
+  .charImg:hover{
+    transform: scale(1.1);
 }
 
 .main {

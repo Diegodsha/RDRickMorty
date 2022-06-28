@@ -1,0 +1,18 @@
+import { Meta, ArgsTable, Story, Canvas } from '@storybook/addon-docs';
+import { RedButton } from '../pages/RedButton.tsx';
+
+<Meta title="Comp/button components" component={RedButton} />
+
+export const Template = (args) => <RedButton {...args} />;
+
+# Button
+
+Let's define a story documented for our `Button` Component:
+
+<Canvas>
+  <Story name="My Button" args={{ main: 'Im a btn' }}>
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+<ArgsTable story="My Button" />

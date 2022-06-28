@@ -1,0 +1,6 @@
+.BreadCrumb{
+    color: #337699;
+    background-color: #fffbf0;
+    display: flex;
+    padding: 12px 32px;
+}
