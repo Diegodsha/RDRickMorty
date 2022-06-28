@@ -47,7 +47,7 @@ export default function CharacterCard({
         </List>
       </CardContent>
       <CardActions>
-        <Link href="/" passHref>
+        <Link href="/Characters" passHref>
           <Button component='a' variant="outlined">Go Back</Button>
         </Link>
       </CardActions>
